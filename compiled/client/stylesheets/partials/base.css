@@ -1,0 +1,85 @@
+/* line 2, ../../../../src/client/stylesheets/partials/base.sass */
+body {
+  background: url(/images/body-bg.png) repeat 0 0;
+  font: 12px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* line 6, ../../../../src/client/stylesheets/partials/base.sass */
+header {
+  background: url(/images/header-bg.png);
+  height: 150px;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+}
+
+/* line 13, ../../../../src/client/stylesheets/partials/base.sass */
+header p.logo {
+  font-size: 4em;
+  float: left;
+  color: white;
+  padding: 0px;
+  font-weight: bold;
+}
+
+/* line 20, ../../../../src/client/stylesheets/partials/base.sass */
+header p.subtitle {
+  float: left;
+  font-size: 24px;
+  color: #303030;
+  position: relative;
+  top: 35px;
+  padding-left: 40px;
+  text-shadow: 0 1px 0 #a0949c;
+}
+
+/* line 30, ../../../../src/client/stylesheets/partials/base.sass */
+header ul.menu {
+  float: left;
+  list-style: none;
+}
+
+/* line 34, ../../../../src/client/stylesheets/partials/base.sass */
+header ul li {
+  display: block;
+  float: left;
+  font-size: 16px;
+  padding: 5px 7px;
+}
+
+/* line 40, ../../../../src/client/stylesheets/partials/base.sass */
+header ul li a {
+  color: white;
+  text-shadow: 0 1px 0 #333333;
+  padding: 1px 10px 4px;
+  display: block;
+  text-decoration: none;
+}
+
+/* line 47, ../../../../src/client/stylesheets/partials/base.sass */
+.wrap {
+  width: 960px;
+  margin: auto;
+}
+
+/* line 51, ../../../../src/client/stylesheets/partials/base.sass */
+.clear {
+  clear: both;
+}
+
+/* line 54, ../../../../src/client/stylesheets/partials/base.sass */
+.content {
+  width: 960px;
+  margin: auto;
+  margin-top: 150px;
+}
+
+/* line 59, ../../../../src/client/stylesheets/partials/base.sass */
+.form button {
+  text-decoration: none;
+  padding: 10px 0;
+  font-size: 22px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  width: 220px;
+}
